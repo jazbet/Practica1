@@ -1,11 +1,9 @@
 package com.example.jazbet.practica1;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -30,7 +28,7 @@ public class SurnameOption extends Activity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_user_form, menu);
+        getMenuInflater().inflate(R.menu.menu_surname_option, menu);
         return true;
     }
 

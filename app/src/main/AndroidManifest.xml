@@ -8,13 +8,33 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.jazbet.practica1.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jazbet.practica1.activity2"
+            android:label="@string/title_activity_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.jazbet.practica1.NameOption"
+            android:label="@string/title_activity_NameOption" >
+        </activity>
+        <activity
+            android:name="com.example.jazbet.practica1.SurnameOption"
+            android:label="@string/title_activity_SurnameOption" >
+        </activity>
+        <activity
+            android:name="com.example.jazbet.practica1.AgeOption"
+            android:label="@string/title_activity_AgeOption" >
+        </activity>
+        <activity
+            android:name="com.example.jazbet.practica1.ImageOption"
+            android:label="@string/title_activity_ImageOption" >
         </activity>
     </application>
 

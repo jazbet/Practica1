@@ -4,5 +4,9 @@
     <string name="app_name">Practica1</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-
+    <string name="title_activity_activity2">activity2</string>
+    <string name="title_activity_NameOption">Name</string>
+    <string name="title_activity_SurnameOption">SurName</string>
+    <string name="title_activity_AgeOption">Age</string>
+    <string name="title_activity_ImageOption">Image</string>
 </resources>

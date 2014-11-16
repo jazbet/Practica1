@@ -4,24 +4,21 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
-/**
- * Created by jazbet on 11/16/14.
- */
-public class NameOption extends Activity {
+
+
+public class activity2 extends Activity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.name_option);
-        TextView textview = (TextView)findViewById(R.id.myName);
-        textview.setText(getIntent().getStringExtra("value"));
+        setContentView(R.layout.activity_activity2);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_name_option, menu);
+        getMenuInflater().inflate(R.menu.menu_activity2, menu);
         return true;
     }
 
@@ -39,5 +36,4 @@ public class NameOption extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-
 }
